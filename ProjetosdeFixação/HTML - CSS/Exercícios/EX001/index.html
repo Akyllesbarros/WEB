@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <main id="title">
+    <title>Site Embrião</title>
+    </main>
+</head>
+    <header>
+        <nav class="menu">
+            <a href="" class="logo" >Nada Aqui tbm.. </a>
+
+        <ul>
+            <li><a href="" class="ativo">Home</a></li>
+            <li><a href="">Serviços</a></li>
+            <li><a href="">Sobre</a></li>
+            <li><a href="">Contatos</a></li>
+        </ul>
+        </nav> <!-- menu -->
+        <section class="principal">
+            <h2>Não leia embaixo</h2>
+            <div class= "links">
+                <a href="" > Clique aqui para não acontecer nada!</a>
+            </div>
+        </section>
+    </header>
+
+    <!--Começa o Formulário-->
+   <body>
+       
+
+    <div class="titulo">
+        <h2 class=>Complete o formulário</h2>
+    </div>
+
+    <form>
+        <fieldset class="group">
+            <div>
+            <label><strong>Nome</strong></label><br>
+            <label for ="Nome"></label>
+            <input type= "text" name="nome" id="nome" required>
+            </div>
+            
+            <div>
+            <label><strong>Sobrenome</strong></label><br>
+            <label for ="Sobrenome"></label>
+            <input type= "text" name="sobrenome" id="sobrenome" required>
+            </div>
+        </fieldset>
+
+        <div class="email">
+            <label><strong>Email<br></strong></label>
+            <input type="email" nome= "email" id="email" required>
+        </div><br>
+
+        <div class="campo">
+            <label><strong>O que mais se identifica:</strong></label><br><br>
+            <label>
+                <input type="radio" name= "identifica" value="nada" checked> Macarrão 
+            </label>
+            <label>
+                <input type="radio" name= "identifica" value="nada1"> Feijão
+            </label>
+            <label>
+                <input type="radio" name= "identifica" value="nada2"> Pão Sírio
+            </label>
+        </div>
+
+        <div  class="local">
+            <label><strong>De onde tu é?</strong></label><br><br>
+            <select id="nasceu">
+                <option select disable value="">Selecione</option>
+                <option>Da Cidade</option>
+                <option>Da roça</option>
+                <option>Do centro da roça</option>
+            </select>
+        </div><br>
+
+    <fieldset class="group">
+        <div>
+            <label><strong>O que comeu hoje:</strong></label><br><br>
+
+                <input type="checkbox" id="comida1" nome= "comida1" value="comida1"> Arroz
+                <input type="checkbox" id="comida2" nome= "comida2" value="comida2"> Feijão
+                <input type="checkbox" id="comida3" nome= "comida3" value="comida3"> Frango
+                <input type="checkbox" id="comida4" nome= "comida4" value="comida4"> Carne de Porco
+                <input type="checkbox" id="comida5" nome= "comida5" value="comida5"> Carne de Boi
+        </div>
+    </fieldset>
+
+    <div class="texto">
+        <br>
+        <label><strong>Agora por último, escreva o hora atual por extenso:</strong></label><br><br>
+        <textarea row="6" style="width: 26em" id="hora" name= "horaextenso"></textarea>
+    </div><br>
+
+    <button type= "submit" class="botaozin"><strong>Envia vai</strong></button>
+
+    </form>
+</body>
+</html>
