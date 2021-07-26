@@ -32,7 +32,7 @@ body{
     width: auto;
     height: 100vh;
     background-size: cover;
-    background-image: url(/CSS/static/backgroundblackcityseta.png );
+    background-image: url(../CSS/backgroundblackcityseta.png );
     color: #fff;
 
 }
@@ -46,7 +46,7 @@ body{
 }
 
 .section__secundary{
-    background-image: url(/CSS/static/backgroundblackcityseta2.jpg);
+    background-image: url(../CSS/backgroundblackcityseta2.jpg);
     width: auto;
     height: 100vh;
     background-size: cover;
